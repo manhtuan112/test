@@ -1,0 +1,66 @@
+#content{
+    padding: 0;
+    margin: 0;
+    background-color: #f3f7f9;
+}
+
+.wrapper-content{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+}
+
+h1{
+    text-align: center;
+    color: #d33333;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+/* -----content----- */
+#wr-form{
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px 30%;
+}
+
+.wr-name,.wr-phone, .wr-opinion{
+    display: flex;
+    margin: 10px 0;
+}
+
+.wr-name>label, .wr-phone>label, .wr-opinion>label{
+    flex-basis: 25%;
+    font-weight: bold;
+    color: #d33333;
+}
+.name, .phone, textarea{
+    flex: 1;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #d33333;
+    outline: none;
+    background-color: aliceblue;
+}
+
+button{
+    border: 2px solid #d33333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 45%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: #d33333;
+}
+
+button:focus{
+    color: red;
+    background-color: whitesmoke
+}

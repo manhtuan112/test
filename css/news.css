@@ -1,0 +1,147 @@
+#content{
+    padding: 0;
+    margin: 0;
+    background-color: #f3f7f9;
+}
+
+.wrapper-content{
+    max-width: 1220px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.black{
+    color: black;
+}
+
+/* ------sidebar------- */
+.side-bar{
+    flex: 25%;
+    border-right: 1px solid rgba(0,0,0,.08);
+    padding-top: 20px;
+}
+
+.side-bar ul *{
+    list-style: square;
+    color: #d30000;
+    text-decoration: none;
+}
+.side-bar ul li a:hover{
+    text-decoration: underline rgba(146, 22, 22, 0.8);
+    color: rgba(146, 22, 22, 0.8);
+
+}
+.side-bar ul li{
+    padding: 8px 0px 9px 3px;
+}
+
+.side-bar ul{
+    padding: 5px 10px 5px 20px;
+    margin-top: 8px;
+}
+
+#main-menu-1{
+    background-color: #eceeef;
+    margin-right: 20px;
+}
+
+#main-menu-1 .sub-menu-1{
+    background-color: #e5e7e8;
+}
+
+#main-menu-1 .sub-menu-2{
+    background-color: #dee0e1;
+}
+
+
+
+/* ------setion_group----- */
+.setion-group{
+    padding-top: 30px;
+    background-color: #f7f9fa;
+    flex: 75%;
+}
+
+#list-news{
+    list-style: none;
+}
+
+.news-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.news-item>a{
+    display: block;
+    margin: 8px;
+    overflow: hidden;
+    flex-basis: 35%;
+    
+}
+.news-item a:first-child{
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgb(175, 171, 171);
+}
+
+.news-item a.fs-16.black{
+    flex: 65%;
+}
+
+.news-item a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_links_double{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgba(211, 0, 0, 0.8);
+    bottom: -60px;
+    opacity: 0;
+    transition: all 400ms ease;
+}
+
+.news-item>a:first-child:hover img{
+    opacity: 0.5;
+    transform: scale(1,1.1);
+    transition: all 400ms ease;
+}
+
+.news-item>a>img:hover+.image_links_double{
+    bottom: 0%;
+    opacity: 1;
+    transition: 400ms ease;
+}
+
+.image_links_double:hover{
+    bottom: 0%;
+    opacity: 1;
+    transition: 400ms ease;
+}
+
+
+i{
+    display: block;
+    color: white;
+    flex: 1;
+    height: 100%;
+    padding: 7% 21%;
+    border-left: 1px solid wheat;
+}
+
+i:hover{
+    background-color: white;
+    color: rgba(211, 0, 0, 0.8);
+}

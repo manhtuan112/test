@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/favicon.png">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Đăng kí</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="wr-img"><img class="banner-logo" role="presentation" data-bind="attr: { src: bannerLogoUrl }"
+                src="https://aadcdn.msftauthimages.net/447973e2-m6kbnbydaq3ycthrx-1cobfpkbalysmxcqcnctb3gzm/logintenantbranding/0/bannerlogo?ts=637062140341381736">
+        </div>
+        <h1>Đăng kí</h1>
+        <form action="">
+            <div class="wr-name">
+                <label for="name">Họ và tên</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="wr-email">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="taikhoan@ptit.edu.vn">
+            </div>
+            <div class="wr-pass">
+                <label for="pass">Mật khẩu</label><br>
+                <input type="password" id="pass" name="pass">
+            </div>
+            <div class="wr-re_pass">
+                <label for="re-pass">Xác nhận mật khẩu</label><br>
+                <input type="password" id="re-pass" name="re-pass">
+            </div>
+            <div class="wr-birth">
+                <label for="birth">Ngày sinh</label><br>
+                <input type="date" id="birth" name="birth">
+            </div>
+            <div class="wr-gender">
+                <label>Giới tính</label><br>
+                <div class="select-gender">
+                    <span class="male">
+                        <input type="radio" name="gender" id="male" value="male" class="gender">
+                        <label for="male">Nam</label>
+                    </span>
+                    <span class="female">
+                        <input type="radio" name="gender" id="female" value="female" class="gender">
+                        <label for="female">Nữ</label>
+                    </span>
+
+                </div>
+            </div>
+            <button>Đăng kí</button>
+        </form>
+    </div>
+</body>
+
+</html>

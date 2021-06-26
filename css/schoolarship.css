@@ -1,0 +1,65 @@
+
+#content{
+    padding: 0;
+    margin: 0;
+    background-color: #f3f7f9;
+}
+
+.wrapper-content{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+h1{
+    text-align: center;
+    color: #d33333;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.note{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ------table-------- */
+
+
+table{
+    border-collapse: collapse;
+}
+
+tr,td,th{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.08);
+}
+
+th{
+    height: 70px;
+    text-transform: uppercase;
+    background: url(https://portal.ptit.edu.vn/wp-content/themes/betheme/images/bg_panel.png);
+    box-shadow: 1px 0 10px 0 rgba(0,0,0,.08);
+}
+
+.text-center{
+    text-align: center;
+}
+
+table tr:nth-child(2n+1){
+    background-color: #f7f9fa;
+}
+
+.wr-img{
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
